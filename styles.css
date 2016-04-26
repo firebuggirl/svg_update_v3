@@ -209,7 +209,7 @@ main li:last-child {
     }
   }
 /* Animate the offset in a path's stroke*/
-  @keyframe offset{
+  @keyframes offset{
     100%{
       stroke-dashoffset: 0;
     }
@@ -433,5 +433,7 @@ animation: pulse .3s .5s;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
 
 }
